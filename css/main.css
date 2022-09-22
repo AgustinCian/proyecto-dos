@@ -1,0 +1,194 @@
+/*reset*/
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+/*estilos del nav*/
+
+.color-fondo{
+    background-color: #DC999C;
+    display: flex;
+    display: inline-block;
+}
+
+/*header*/
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    display: flex;
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    }
+
+
+/*body*/
+    
+    body{
+        padding: 0;
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(../img/fondo-html.jpg)
+}
+
+/*main*/
+
+main{
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: auto;
+    }
+
+.main-texto{
+    margin-left: 60px;
+    font-size: 40px;
+    padding: 20px;
+    justify-content: center;
+    justify-items: center;
+    }
+
+
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    padding: 45px 20px;
+    margin: 0 auto;
+    margin-top: 150px;
+    }
+
+/*carrusel*/
+
+.slide{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    padding: 45px 20px;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*footer*/
+
+
+.footer-todo{
+    width: 100%;
+    background-color: #DC999C;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.footer-todo .footer-texto{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    padding: 45px 0px;
+    }
+
+
+.footer-todo .box h2{
+        margin-bottom: 25px;
+        font-size: 20px;
+}
+
+.footer-todo .footer-texto .redes img{
+    display: inline-block;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    line-height: 45px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+/*rotiseria*/
+
+.div-platos img{
+    width: 400px;
+    height: 200px;
+}
+
+
+/*pasteleria*/
+
+.div-pasteleria img{
+    width: 400px;
+    height: 200px;
+}
+
+
+
+
+/*servicios*/
+
+.servicios{
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    display:flex;
+    padding: 45px 0px;
+}
+
+/*cards*/
+
+.card-body{
+    display: grid;
+    text-align: center;
+}
+
+
+/*media querie*/
+
+
+@media (max-width:768px){
+    .main-index{
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .color-fondo{
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-brand{
+        display: flex;
+        justify-content: center;
+}
+}
+
+@media (max-width:508px){
+    
+    header{
+        display: none;
+    }
+    
+
+    main{
+        margin: 0.7rem;
+    }
+
+
+    .footer-todo{
+        text-align: center;
+    }
+
+}
